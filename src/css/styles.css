@@ -1,0 +1,138 @@
+/* General body and page styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url(./abstracto-oscuro-rayas-textura-wallpaper-b94058dd619a5d8b96a738af2001566d.jpg);
+    color: #00000065;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    margin: 0;
+}
+
+#contenedor {
+
+    background-color: #ffffff8e;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    margin: 10px;
+}
+
+/* Header */
+h1 {
+    font-size: 36px;
+    color: #0c0c0c;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+
+label {
+    font-size: 18px;
+    color: #555;
+    display: block;
+    margin: 15px 0 5px;
+}
+
+/* Input fields */
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+    border-color: #48e00b;
+    outline: none;
+}
+
+/* Submit button */
+button {
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #151d15;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #ff0000;
+}
+
+/* Result message style */
+#resultado {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+/* Error message (if any) */
+#resultado.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border-color: #f5c6cb;
+}
+
+/* Success message */
+#resultado.success {
+    background-color: #d4edda;
+    color: #155724;
+    border-color: #c3e6cb;
+}
+
+@media (max-width: 768px) {
+    #contenedor {
+        padding: 20px;
+    }
+
+
+    input[type="text"],
+    button {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+
+    #contenedor {
+        width: 90%;
+        padding: 15px;
+    }
+
+    input[type="text"],
+    button {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+
+    }
+}
