@@ -1,7 +1,7 @@
 /* General body and page styles */
 body {
     font-family: 'Arial', sans-serif;
-    background-image: url(./abstracto-oscuro-rayas-textura-wallpaper-b94058dd619a5d8b96a738af2001566d.jpg);
+    background-image: url(/src/img/backgraund.jpg);
     color: #00000065;
     display: flex;
     justify-content: center;
